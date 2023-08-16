@@ -1,0 +1,26 @@
+{
+  "user_register": {
+    "jeff": {
+      "username": "jefferson",
+      "password": "091022"
+    },
+    "kaelly": {
+      "username": "kaelly",
+      "password": "221009"
+    }
+  },
+  "create_task": {
+    "task1": {
+      "user_reference": "<colocar referencia de usuário registrado>",
+      "task": "Fazer desafio",
+      "status": "progress",
+      "description": "Criar um gerenciador de tarefas onde possa: criar, deletar e atualizar tarefas."
+    },
+    "task2": {
+      "user_reference": "<colocar referencia de usuário registrado>",
+      "task": "Criação do Publisher.com",
+      "status": "pending",
+      "description": "Criar uma plataforma de envio de conteúdo gratuito e monetizado de conteúdo para o publico."
+    }
+  }
+}

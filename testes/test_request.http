@@ -1,0 +1,33 @@
+POST http://localhost:8080/user/register
+Content-Type: application/json
+
+{
+  "username": "jeffers",
+  "password": "1234"
+}
+
+###
+
+POST http://localhost:8080/task/create
+Content-Type: application/json
+
+{
+  "token": "df9d1e08-9ab9-4ed5-b28c-41294f1bceee",
+  "user_reference": "3ff269c7-0548-4e94-9081-6fa77c871433",
+  "task": "Fazer desafio",
+  "status": "pending",
+  "description": "Criar uma plataforma de envio de conteúdo gratuito e monetizado de conteúdo para o publico."
+}
+
+###
+
+PUT http://localhost:8080/task/update
+Content-Type: application/json
+
+{
+  "token": "df9d1e08-9ab9-4ed5-b28c-41294f1bceee",
+  "user_reference": "3ff269c7-0548-4e94-9081-6fa77c871433",
+  "task_reference": "b5fb95db-c31d-4ea4-9be1-e3239aa1ca74",
+  "target": "task",
+  "value": "Pythonando"
+}
