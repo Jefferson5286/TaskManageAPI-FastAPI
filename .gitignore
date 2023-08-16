@@ -1,0 +1,10 @@
+.pytest_cache
+venv
+chat
+database.bin
+database.bin-wal
+database.bin-shm
+*.pyc
+*.pyi
+__pycache__
+.idea
